@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 400px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#inp{
+    height: 40px;
+    width: 300px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+#btn{
+    height: 40px;
+    width: 30px;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    position: absolute;
+}
+.todobox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+}
+.para-style{
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
